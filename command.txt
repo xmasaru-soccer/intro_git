@@ -1,0 +1,247 @@
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~
+$ git version
+git version 2.35.1.windows.2
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~
+$ git config --global user.name "github user name"
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~
+$ git config --global user.name "xmasaru-soccer"
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~
+$ git config --global user.email "umibouzu.tenmagyu0604@gmail.com"
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~
+$ cd ~/Desktop
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop
+$ cd intor_git
+bash: cd: intor_git: No such file or directory
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop
+$ cd intro_git
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git
+$
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git
+$
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git
+$
+
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git
+$
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git
+$
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git
+$ pwd
+/c/Users/umiten/Desktop/intro_git
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git
+$ ls
+first.txt
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git
+$ git init
+Initialized empty Git repository in C:/Users/umiten/Desktop/intro_git/.git/
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (master)
+$ ls -a
+./  ../  .git/  first.txt
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (master)
+$ git add first.txt
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (master)
+$ git commit
+hint: Waiting for your editor to close the file... "C:\Users\umiten\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait: C:\Users\umiten\AppData\Local\Programs\Microsoft VS Code\bin\code: No such file or directory
+error: There was a problem with the editor '"C:\Users\umiten\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait'.
+Please supply the message using either -m or -F option.
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (master)
+$ git remote add origin https://github.com/xmasaru-soccer/intro_git.git
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/xmasaru-soccer/intro_git.git'
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (master)
+$ git branch -M main
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/xmasaru-soccer/intro_git.git'
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git commit
+[main (root-commit) 5a4fb19] Initial Commit
+ 1 file changed, 2 insertions(+)
+ create mode 100644 first.txt
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git push -u origin main
+
+
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ fatal: helper error (-1073741510): Unknown
+^C
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git push -u origin main
+fatal: helper error (-1): User cancelled dialog.
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/bin/git-askpass.exe'
+Username for 'https://github.com':
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git remote add origin https://github.com/xmasaru-soccer/intro_git.git
+error: remote origin already exists.
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git push -u origin main
+
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git push -u origin main
+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
+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
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git push -u origin main
+
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 300 bytes | 100.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/xmasaru-soccer/intro_git.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   first.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git add .
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git commit
+Aborting commit due to empty commit message.
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git staus
+
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   first.txt
+
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git commit -v
+Aborting commit due to empty commit message.
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git log
+commit 5a4fb1901c4e8dd3bc76bba3a702a0f0cae880ec (HEAD -> main, origin/main)
+Author: xmasaru-soccer <umibouzu.tenmagyu0604@gmail.com>
+Date:   Thu Jun 23 22:17:39 2022 +0900
+
+    Initial Commit
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git add .
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git commit -v
+[main f53d926] 変更した内容をコミットします。
+ 1 file changed, 3 insertions(+)
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 369 bytes | 369.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/xmasaru-soccer/intro_git.git
+   5a4fb19..f53d926  main -> main
+branch 'main' set up to track 'origin/main'.
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git add second.txt
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   second.txt
+
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git commit -v
+[main 6f71172] OK!!!!!
+ 1 file changed, 1 insertion(+)
+ create mode 100644 second.txt
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 298 bytes | 149.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/xmasaru-soccer/intro_git.git
+   f53d926..6f71172  main -> main
+branch 'main' set up to track 'origin/main'.
+
+umiten@LAPTOP-1JGGG05H MINGW64 ~/Desktop/intro_git (main)
+$
